@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>snc.as</groupId>
-  <artifactId>consumer</artifactId>
+  <artifactId>consumerFeign</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>consumer</name>
+  <name>consumerFeign</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,13 +21,9 @@
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 <dependencies>
-	<dependency>
-    	<groupId>org.springframework.cloud</groupId>
-    	<artifactId>spring-cloud-starter-hystrix</artifactId>
-	</dependency>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-ribbon</artifactId>
+        <artifactId>spring-cloud-starter-feign</artifactId>
     </dependency>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
